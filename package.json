@@ -1,0 +1,13 @@
+{
+  "name": "learning-ocpp16-simulator",
+  "version": "1.0.0",
+  "description": "A small, readable OCPP 1.6-J charge point simulator and CSMS for learning, companion to the book Learning OCPP 1.6-J.",
+  "type": "module",
+  "license": "MIT",
+  "author": "HashTech Systems",
+  "engines": { "node": ">=22" },
+  "bin": { "ocpp16-sim": "sim.js", "ocpp16-csms": "csms.js" },
+  "scripts": { "test": "node --test", "csms": "node csms.js" },
+  "keywords": ["ocpp", "ocpp1.6", "ev-charging", "simulator", "csms", "websocket"],
+  "dependencies": { "ws": "^8.22.0" }
+}
